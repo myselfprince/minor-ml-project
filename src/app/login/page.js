@@ -76,7 +76,7 @@ const handleSubmit = (e) => {
          
           {/* signup page */}
           <h1 className='text-center text-3xl font-mono text-wrap text-green-950'>Login</h1>
-          <p className='text-center text-green-400 font-sans'>New User? <Link href={"#"}>Signup</Link> </p>
+          <p className='text-center text-green-400 font-sans'>New User? <Link href={"/signup"}>Signup</Link> </p>
           <form className="rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
        
         <div className="mb-12">

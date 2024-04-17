@@ -46,7 +46,7 @@ export default function Home() {
           <Link href={"#"}><li className="text-center mt-2 font-semibold text-xl">Health library</li></Link>
           <Link href={"#"}><li className="text-center mt-2 font-semibold text-xl">Symptoms checker</li></Link>
           <Link href={"#"}><li className="text-center mt-2 font-semibold text-xl">Services</li></Link>
-          <Link href={"#"}><li className="text-center mt-2 font-semibold text-xl">Login</li></Link>
+          <Link href={"/login"}><li className="text-center mt-2 font-semibold text-xl">Login</li></Link>
         </ul>
       </div>
     </nav>
@@ -58,7 +58,7 @@ export default function Home() {
         <p className="mt-4 w-full md:w-2/3">{process.env.NEXT_PUBLIC_WEBSITE_NAME} offers seamless medical support , empowering individuals to take control of their health. Our innovative platform combines cutting edge technology with compassionate care , providing a complete solution for all your healthcare needs.</p>
       </div>
       <div>
-        <Image src={"/homepage/home1.png"} height={800} width={800} className="my-6 md:my-0"></Image>
+        <Image src={"/homepage/homepage.png"} height={800} width={800} className="my-6 md:my-0"></Image>
       </div>
     </div>
 
